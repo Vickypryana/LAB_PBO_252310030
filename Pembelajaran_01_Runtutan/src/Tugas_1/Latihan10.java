@@ -1,4 +1,4 @@
-package Tugas_1;
+Kpackage Tugas_1;
 
 import java.util.Scanner;
 import java.time.LocalDateTime;
@@ -30,7 +30,7 @@ public class Latihan10 {
         System.out.printf("%-15s %6s %15s %15s%n", "ITEM", "QTY", "HARGA", "TOTAL");
         System.out.println("============================================================");
         System.out.printf("%-15s %6d %15s %15s%n",
-                "ROTI GEMBUNG", qty, "Rp 6.300,-", "Rp " + String.format("%,d", total));
+                "ROTI ENAK.", qty, "Rp 6.300,-", "Rp " + String.format("%,d", total));
         System.out.println("------------------------------------------------------------");
         System.out.println("Diskon: " + (int) diskonPersen + "%");
         System.out.println("Sub Total: Rp " + String.format("%,d", subTotal) + ",-");
